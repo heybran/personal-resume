@@ -14,7 +14,7 @@ import educations from "./data/educations.json";
 import highlights from "./data/highlights.json";
 import experiences from "./data/experiences.json";
 import certificates from "./data/certificates.json";
-import authorImage from "./assets/author.jpeg";
+import authorImage from "./assets/author.jpg";
 import introduction from "./data/introduction.json";
 </script>
 
