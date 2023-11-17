@@ -1,0 +1,34 @@
+[
+  {
+    "name": "cucumber-components",
+    "url": "https://github.com/heybran/cucumber-components",
+    "description": "A collection of native web components built on top of web standards with a focus on accessibility.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web Components",
+      "Vite",
+      "Node.js"
+    ]
+  },
+  {
+    "name": "breeze-router",
+    "url": "https://github.com/heybran/breeze-router",
+    "description": "A lightweight, zero-dependency client-side router for single page applications (SPAs).",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "freeinvoicebuilder",
+    "url": "https://github.com/heybran/freeinvoicebuilder",
+    "description": "A online free invoice builder (not deployed yet) hand-crafted by me with Deno/Node.js, vanilla JavaScript (Web Components).",
+    "languages": [
+      "JavaScript",
+      "Web Components",
+      "Node.js",
+      "Deno"
+    ]
+  }
+]

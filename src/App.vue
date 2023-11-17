@@ -1,47 +1,46 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+// Components
+import ResumeSection from "./components/ResumeSection.vue";
+import Highlights from "./components/Highlights.vue";
+import Experiences from "./components/Experiences.vue";
+import Certificates from "./components/Certificates.vue";
+import Projects from "./components/Projects.vue";
+import Educations from "./components/Educations.vue";
+import ResumeHeader from "./components/ResumeHeader.vue";
+
+// Data
+import projects from "./data/projects.json";
+import educations from "./data/educations.json";
+import highlights from "./data/highlights.json";
+import experiences from "./data/experiences.json";
+import certificates from "./data/certificates.json";
+import authorImage from "./assets/author.jpeg";
+import introduction from "./data/introduction.json";
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <ResumeHeader :name="introduction.name" :authorImage="authorImage" :description="introduction.description" />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <ResumeSection heading="Highlights">
+    <Highlights :highlights="highlights" />
+  </ResumeSection>
 
-  <main>
-    <TheWelcome />
-  </main>
+  <ResumeSection heading="Experiences">
+    <Experiences :experiences="experiences" />
+  </ResumeSection>
+
+  <ResumeSection heading="Certificates">
+    <Certificates :certificates="certificates" />
+  </ResumeSection>
+
+  <ResumeSection heading="Projects">
+    <Projects :projects="projects" />
+  </ResumeSection>
+
+  <ResumeSection heading="Education">
+    <Educations :educations="educations" />
+  </ResumeSection>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>

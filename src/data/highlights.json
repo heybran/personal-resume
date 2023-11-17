@@ -1,0 +1,32 @@
+[
+  {
+    "description": "Understanding of web accessibility from a user and development point of view and have working experience with accessibility testing."
+  },
+  {
+    "description": "Solid knowledge on Web Components and its best practices."
+  },
+  {
+    "description": "Strong knowledge on front-end technologies like HTML, CSS (Flexbox, Grid, Nesting, BEM) and JavaScript."
+  },
+  {
+    "description": "Working knowledge on React, TypeScript, SASS and Astro."
+  },
+  {
+    "description": "Experience with backend technologies like Node.js, Express.js and PHP."
+  },
+  {
+    "description": "Comfortable working with relational MySQL and Postgres databases."
+  },
+  {
+    "description": "Experience creating and consuming RESTFUL APIs."
+  },
+  {
+    "description": "Experience with e2e testing with Cypress and Playwright, and automatic accessibility testing with Cypress."
+  },
+  {
+    "description": "Experience developing WordPress plugin and building custom Gutenberg blocks with React."
+  },
+  {
+    "description": "Experience with Docker, AWS DynamoDB."
+  }
+]

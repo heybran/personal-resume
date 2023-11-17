@@ -1,0 +1,20 @@
+[
+  {
+    "role": "Remote Front-End Developer",
+    "company": "Company One",
+    "time": "November 1, 2020 - May 31, 2023",
+    "description": "Develop and maintain software applications using modern programming languages and frameworks. Collaborate with product managers and designers to understand project requirements and translate them into technical specifications. Write clean, efficient, and well-documented code that adheres to industry best practices."
+  },
+  {
+    "role": "Web Developer",
+    "company": "Company Two",
+    "description": "Develop and maintain software applications using modern programming languages and frameworks. Collaborate with product managers and designers to understand project requirements and translate them into technical specifications. Write clean, efficient, and well-documented code that adheres to industry best practices."
+  },
+  {
+    "role": "Back-end Developer",
+    "company": "Company Threee",
+    "time": "May 6, 2012 - March 1, 2021",
+    "description": "Develop and maintain software applications using modern programming languages and frameworks. Collaborate with product managers and designers to understand project requirements and translate them into technical specifications. Write clean, efficient, and well-documented code that adheres to industry best practices."
+  }
+]
+
