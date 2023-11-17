@@ -1,6 +1,12 @@
-# personal-resume
+# Personal Resume Boilerplate
 
-This template should help get you started developing with Vue 3 in Vite.
+I make this boilerplate template out of my personal resume, currently built with Vue.js, but I intend to create alternative versions with vanilla HTML, CSS, JavaScript and other tech stacks so it is more accessible to developers.
+
+## Versions
+
+- HTML, CSS & JavaScript: @TODO
+- Astro: @TODO
+- React: @TODO
 
 ## Recommended IDE Setup
 
